@@ -65,7 +65,7 @@ a:hover {
 }
 
 .play-store-badge {
-    height: 60px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
     width: auto;
     display: block;
     margin: 20px auto 0;
@@ -94,7 +94,7 @@ a:hover {
 .hero-content {
     flex: 1; /* Allows content to take available space */
     min-width: 300px; /* Minimum width before wrapping */
-    max-width: 500px; /* Maximum width for content block */
+    max-width: 600px; /* Maximum width for content block */
     text-align: center;
 }
 
@@ -128,7 +128,7 @@ a:hover {
     flex: 1;
     min-width: 300px;
     /* --- MODIFICATION START --- */
-    max-width: 550px; /* Increased max width for the image container */
+    max-width: 650px; /* Increased max width for the image container */
     /* --- MODIFICATION END --- */
     text-align: center;
 }
@@ -136,7 +136,7 @@ a:hover {
 .app-screenshot {
     width: 100%;
     /* --- MODIFICATION START --- */
-    max-width: 500px; /* Increased max width for the image itself */
+    max-width: 600px; /* Increased max width for the image itself */
     /* --- MODIFICATION END --- */
     height: auto;
     border-radius: 15px;
