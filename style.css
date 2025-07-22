@@ -127,13 +127,17 @@ a:hover {
 .hero-image {
     flex: 1;
     min-width: 300px;
-    max-width: 400px;
+    /* --- MODIFICATION START --- */
+    max-width: 550px; /* Increased max width for the image container */
+    /* --- MODIFICATION END --- */
     text-align: center;
 }
 
 .app-screenshot {
     width: 100%;
-    max-width: 350px; /* Max width for the image */
+    /* --- MODIFICATION START --- */
+    max-width: 500px; /* Increased max width for the image itself */
+    /* --- MODIFICATION END --- */
     height: auto;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
@@ -311,7 +315,9 @@ footer {
         margin-bottom: 30px;
     }
     .app-screenshot {
-        max-width: 250px;
+        /* --- MODIFICATION START --- */
+        max-width: 250px; /* Keep it smaller on mobile */
+        /* --- MODIFICATION END --- */
     }
 
     .feature-item {
